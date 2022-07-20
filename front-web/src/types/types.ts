@@ -5,15 +5,24 @@ export type SalesByGender = {
   sum: number;
 };
 
-export type SalesSummary = {
+export type SalesSummaryData = {
   sum?: number;
-  min: number;
-  max: number;
-  avg: number;
-  count: number;
+  min?: number;
+  max?: number;
+  avg?: number;
+  count?: number;
 };
 
 export type Stores = {
   id: number;
   name: string;
+};
+
+export type FilterData = {
+  store?: Stores;
+};
+
+export type PieChartConfig = {
+  labels: string[];
+  series: number[];
 };

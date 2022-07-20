@@ -1,21 +1,36 @@
 .sales-by-store-container {
   height: 520px;
   padding: 40px 50px 0 15px;
+  width: 300px;
 }
 
-.sales-by-store-quantity {
+.sales-by-store-sum {
   font-size: 36px;
   color: var(--blue-color);
+  margin-bottom: 10px;
 }
 
-.sales-by-store-quantity-label {
+.sales-by-store-title {
   font-size: 18px;
   color: var(--grey-color);
 }
 
-.pie-chart-card {
+/* .pie-chart-card {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px;
+  border: 1px solid red;
+} */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
 }
