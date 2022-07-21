@@ -8,3 +8,17 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (min-width: 992px) {
+  .pie-chart-card {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: -150px;
+    padding-left: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .pie-chart-card {
+    margin-left: 150px;
+  }
+}

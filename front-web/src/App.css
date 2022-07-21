@@ -5,6 +5,24 @@
 .sales-overview-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+  .sales-overview-container {
+    margin: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sales-overview-container {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sales-overview-container {
+    margin-left: 120px;
+  }
 }

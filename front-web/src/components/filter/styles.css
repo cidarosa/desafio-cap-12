@@ -23,13 +23,28 @@
 }
 
 @media (min-width: 576px) {
+  .filter-container {
+    margin: 40px;
+    width: 500px;
+    padding-left: 40px;
+  }
 }
 
 @media (min-width: 768px) {
+  .filter-container {
+    width: 680px;
+  }
 }
 
 @media (min-width: 992px) {
+  .filter-container {
+    width: 960px;
+    margin-left: 15px;
+  }
 }
 
 @media (min-width: 1200px) {
+  .filter-container {
+    margin-left: 120px;
+  }
 }
